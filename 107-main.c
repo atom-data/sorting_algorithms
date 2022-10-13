@@ -14,7 +14,7 @@ int main(void)
 
 	print_array(array, n);
 	printf("\n");
-	quick_sort_hoarse(array, n);
+	quick_sort_hoare(array, n);
 	printf("\n");
 	print_array(array, n);
 	return (0);
